@@ -21,6 +21,14 @@ text-transform: capitalize;
     
 
 }
+.icon a{
+    color:#ece3ce;
+    position: relative;
+    top: 13px;
+    margin-left: 40px;
+   
+   
+}
 .logo{
     margin-top: 8px;
     font-size: 30px;
@@ -80,7 +88,18 @@ li a:hover{
         background-color: #3a4d39;
        
     } 
-
+    .icon {
+        font-size: 23px;
+        position: absolute;
+        top: 10px;
+        right: 110px;
+        margin-left: 30px;
+        
+    }
+    .icon a{
+        color:#ece3ce;
+        margin-left: 30px;
+    }
     
     li a{
         color: #ece3ce;
@@ -221,13 +240,18 @@ ul{
     color: #3a4d39;
     font-family: 'Times New Roman', Times, serif;
 }
+.homeimg{
+    position:absolute;
+    margin-top: 2px;
+    right: 50px;
+}
 .homeimg img{
-    width: 200px;
-    height: 300px;
-    position: absolute;
-    top: 180px;
-    right: 80px;
-    border: 10px solid #3a4d39;
+    width: 350px;
+    height: 320px;
+    /* position: absolute; */
+    /* margin-top: 2px; */
+    /* right: 50px; */
+    /* border: 10px solid #3a4d39; */
     border-radius: 20% 30%;
 }
 .homeimg img:hover{
@@ -256,10 +280,13 @@ ul{
 
 
 @media (max-width:700px){
+    .home{
+        height: 200px;
+    }
     .homeimg{
-        position: relative;
-        top: 0;
-        left:10px;
+     
+        height: 50px;
+     
           
         /* display: block; */
         /* margin: 0 auto; */
@@ -271,6 +298,9 @@ ul{
 
     }
     .homeimg img{
+        position: relative;
+        top: 20px;
+        left:10px;
         width: 260px ;
          height: 270px;
         
@@ -296,7 +326,8 @@ ul{
         font-size: 22px;
     }
     .homep{
-        width:100%;
+        width:90%;
+        height: 140px;
         font-size:15px;
         text-indent: 40px;
         overflow:hidden;
@@ -565,7 +596,7 @@ svg{
 
 #project{
     width: 100%;
-    height: 500px;
+    height: 350px;
     background: #3a4d39;
     /* border-top: 3px solid wheat; */
 /*      */
@@ -601,15 +632,15 @@ svg{
     gap: 30px;
 }
 .imgpro1 img{
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 120px;
     border-radius: 10%;
     
 }
 @media (max-width:700px){
     #project{
         width: 100%;
-        height: 650px;
+        height: 450px;
         background-color: #3a4d39;
     }
     .projects p{
